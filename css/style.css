@@ -1,0 +1,153 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 90%;
+	background-color: #a6aeb3;
+	color: black;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 30px 5% ;
+	box-shadow: 1px 1px 5px 1px #000000;
+}
+
+h1 {
+	font-size: 35px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav{
+	list-style: none;
+	font-size: 16px;
+	padding-bottom: 5px;
+	font-weight: 500;
+}
+
+.nav li a{
+	transition: all 0.3s ease 0;
+	text-decoration: none;
+		color: #fff;
+
+}
+
+.nav li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav li:nth-child(2){
+	padding: 9px 25px;
+	background:#5f2ef2;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.nav li a:hover{
+	color:rgba(142, 161, 230, 0.877);
+}
+
+.container{
+	min-height: 500px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left{
+	margin-right: 60px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+.tag{
+	padding-bottom: 10px;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.left li{
+	list-style-image: url("../images/icon-plus.png");
+	line-height: 1.6em;
+	margin-left: 25px;
+}
+
+.poster{
+	width: 700px;
+	height: 400px;
+	margin-right: 20px;
+	display: block;
+	object-fit: cover;
+	object-position: left;
+	border-radius: 10px;
+	
+}
+
+/*@media (max-width: 500px;){
+	.container{
+		flex-direction: column;
+	}
+}*/
+
+table {
+	margin: 50px auto;
+	border-spacing: 0px;
+	justify-content: space-between;
+	color: black;
+}
+
+th, td {
+	padding: 5px 30px 5px 10px;
+	border-spacing: 0px;
+	font-size: 110%;
+	margin: 0px;
+	font-weight: 500;
+}
+			
+th, td {
+	text-align: left;
+	background-color: #a39eb5;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+	border-left: 1px solid #cbd2d8;
+}
+	
+tr.head th {
+	background-color: #7e7b8a;
+	text-align: center
+	letter-spacing: 0.15em;
+	font-weight: 700;
+}
+	
+td {
+	font-weight: 400;
+}
+
+tr {
+	font-weight: 700;
+}
+
+tr.even td, tr.even th {
+	background-color: #e8eff5
+
+tr.head th:first-child {
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+		border-top-right-radius: 5px;
+}
